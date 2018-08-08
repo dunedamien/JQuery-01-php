@@ -1,0 +1,79 @@
+
+body {
+    color: darkblue;
+}
+
+header{
+    width: auto;
+    height: 40px;
+    text-align: center;
+}
+ul{
+    margin: 0%;
+    padding: 0px;
+    list-style-type: none;
+}
+li a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 22px 16px;
+    text-align: center;
+}
+li a:hover{
+    background-color: lavender
+}
+li{
+    float: left;
+    padding: 10px 0;
+    margin-right: 15px;
+}
+.nom{
+    display:inline;
+}
+
+#no_name{
+    color: red;
+    margin:0px;
+}
+
+.prenom{
+    display:inline;
+}
+#no_firstname{
+    color: red;
+    margin:0px;
+}
+
+.age{
+    display:inline;
+}
+#no_age{
+    color: red;
+    margin:0px;
+}
+
+.resultat{
+    display:block;
+    color:green;
+}
+#button{
+    display:block;
+}
+#1{
+    display:inline-block;
+}
+#2{
+    display:inline-block;
+    padding-left:15px;
+}
+.formulaire{
+    display:inline-block;
+    border : 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+footer{
+    text-align: center;
+}
